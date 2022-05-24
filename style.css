@@ -47,6 +47,10 @@ h1 {
     text-decoration: underline;
 }
 
+.mainUser p:hover {
+    cursor: pointer;
+}
+
 .mainUser img {
     width: 250px;
     height: 250px;
@@ -63,6 +67,7 @@ h1 {
 
 .mainRight h2 {
     margin-top: 90px;
+    margin-left: 20px
 }
 
 .user {
@@ -71,7 +76,12 @@ h1 {
     margin: 10px 20px;
     border: 2px solid black;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user p {
+    font-size: 16px;
 }
 
 .user2 {
@@ -80,14 +90,26 @@ h1 {
     margin: 10px 20px;
     border: 2px solid black;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-
+.user2 p {
+    font-size: 16px;
+}
 
 .like {
     width: 50px;
     height: 25px;
     background-color: yellow;
     box-shadow: 5px 5px 2px black;
+}
+
+#underline {
+    text-decoration: underline;
+    color: blue;
+}
+
+#underline:hover {
+    cursor: pointer;
 }
